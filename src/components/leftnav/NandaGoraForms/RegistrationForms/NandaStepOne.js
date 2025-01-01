@@ -258,11 +258,11 @@ const NandaStepOne = ({ buttons }) => {
                     controlId="exampleForm.ControlInput1"
                   >
                     <Form.Label>
-                      माता / पिता / संरक्षक एवं कन्या शिशु के संयुक्त खता संख्या <span className="alert-txt">*</span>
+                      माता/पिता/संरक्षक एवं कन्या शिशु के संयुक्त खता संख्या <span className="alert-txt">*</span>
                     </Form.Label>
                     <Form.Control
                       type="email"
-                      placeholder="माता / पिता / संरक्षक एवं कन्या शिशु के संयुक्त खता संख्या "
+                      placeholder="माता/पिता/संरक्षक एवं कन्या शिशु के संयुक्त खता संख्या "
                       className="shadow1"
                     />
                   </Form.Group>
