@@ -1,0 +1,98 @@
+.nd-main-banner {
+    background-color: #2990ED;
+    background-image: url(../images/govt_education.png);
+    height: 620px;
+}
+
+.nd-update p {
+    color: var(--nd-white);
+}
+
+.nd-subupdate {
+    background-color: var(--nd-white);
+    height: var(--nd-space-1300);
+    width: auto 0;
+    font-weight: var(--nd-space-800);
+    display: flex;
+    border-radius: var(--nd-space-200);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+
+}
+
+.nd-subupdate p {
+    font-size: var(--nd-space-400);
+    margin: var(--nd-space-400);
+    color: var(--nd-black);
+    font-weight: var(--nd-space-700);
+
+}
+
+.nd-subupdate img {
+    margin-right: var(--nd-space-100) !important;
+}
+
+.nd-subdata {
+    color: var(--nd-white);
+    font-size: var(--nd-space-800);
+    text-align: center;
+    font-weight: bold;
+}
+
+/* login css */
+.nd-Login-form {
+    border-radius: var(--nd-space-200);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06) !important;
+    transition: transform 0.9s, box-shadow 0.3s;
+}
+
+.nd-login-title {
+    color: var(--nd-black) !important;
+    font-weight: var(--nd-space-700) !important;
+}
+
+.nd-login-subtitle {
+    color: var(--nd-Primary);
+    font-weight: var(--nd-space-700);
+    font-weight: bold;
+}
+
+.nd-sign {
+    font-size: var(--nd-space-400);
+    text-align: center;
+}
+
+.nd-login {
+    background-color: var(--nd-Primary);
+    width: 150px;
+}
+
+.nd-form-control {
+    background-color: var(--nd-Off-white);
+    font-size: var(--nd-space-300);
+}
+
+.nd-form-label {
+    color: var(--nd-primary-black);
+}
+
+.nd-link-page {
+    text-decoration: none !important;
+    color: var(--nd-white) !important;
+}
+
+@media (max-width: 576px) {
+    .nd-main-data {
+        display: none;
+    }
+
+    .nd-main-login {
+        margin-top: 0px !important;
+    }
+
+    .nd-main-banner {
+
+
+        background-image: none;
+    }
+}

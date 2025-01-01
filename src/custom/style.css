@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background-color: var(--nd-blue-light-bg);
+}
+
+
+/* svg {
+    fill: #0d77cb;
+  } */
+:root {
+  --bs-breakpoint-xs: 0;
+  --bs-breakpoint-sm: 576px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 992px;
+  --bs-breakpoint-xl: 1200px;
+  --bs-breakpoint-xxl: 1400px;
+}
+
+:root {
+  --nd-white: #ffffff;
+  --nd-black: #000000;
+  --nd-Primary: #ED3338;
+  --nd-red-dark: #ac0a0f;
+  --nd-seconadry: #a0a0a0;
+  --nd-seconadry-hover: #807d7d;
+  --nd-primary-hover: #cd1d22;
+  --nd-blue-hover: #1d529e;
+  --nd-primary-off-white: #EFF0F2;
+  --nd-blue: #2990ED;
+  --nd-border: #B9C9D3;
+  --nd-off-black: #154351;
+  --nd-blue-light-bg: #E0EEFB;
+  --nd-blue-dark-bg: #023B6D;
+
+
+
+
+  /* custom padding and margin*/
+  --nd-space-0: 0px;
+  --nd-space-25: 1px;
+  --nd-space-50: 2px;
+  --nd-space-100: 4px;
+  --nd-space-150: 6px;
+  --nd-space-200: 8px;
+  --nd-space-250: 10px;
+  --nd-space-300: 12px;
+  --nd-space-350: 14px;
+  --nd-space-400: 16px;
+  --nd-space-450: 18px;
+  --nd-space-500: 20px;
+  --nd-space-550: 22px;
+  --nd-space-600: 24px;
+  --nd-space-700: 28px;
+  --nd-space-800: 32px;
+  --nd-space-900: 36px;
+  --nd-space-1000: 40px;
+  --nd-space-1100: 44px;
+  --nd-space-1200: 48px;
+}
+
+.nd-primary-btn {
+  background-color: var(--nd-Primary);
+  border: 1px solid var(--nd-primary-hover) !important;
+
+}
+
+.nd-primary {
+  background-color: var(--nd-Primary);
+  border: 1px solid var(--nd-primary-hover) !important;
+  width: 100px;
+}
+
+.nd-primary:hover {
+  background-color: var(--nd-primary-hover);
+}
+
+.nd-primary-btn:hover {
+  background-color: var(--nd-primary-hover);
+}
+
+.nd-close-btn {
+  background-color: var(--nd-seconadry);
+  border: 1px solid var(--nd-seconadry-hover) !important;
+  color: var(--nd-black);
+}
+
+.nd-close-btn:hover {
+  background-color: var(--nd-seconadry-hover);
+}
+
+.btn-close {
+  background-color: var(--nd-Primary) !important;
+  opacity: 100%;
+  background-image: none;
+  padding-top: var(--nd-space-100) !important;
+  padding-bottom: var(--nd-space-300) !important;
+
+}
+
+.nd-user-regis:hover {
+  color: var(--nd-Primary) !important;
+}
+
+.btn-close::after {
+  content: "X";
+  color: var(--nd-white);
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+  background-color: var(--nd-red-dark) !important;
+}
+
+.nd-chek-box {
+  position: a;
+  padding: 12px;
+  background-color: var(--nd-Primary);
+  text-align: center;
+  font-size: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  width: auto;
+}
+
+.nd-check-btn {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nd-chek-box .form-check-label {
+  color: #fff !important;
+  padding-top: 3px !important;
+}
+
+.form-check {
+  min-height: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.nd-start-item ol li {
+  line-height: var(--nd-space-600) !important;
+  color: var(--nd-black) !important;
+}
+
+.nd-start-item ol li span {
+  color: var(--nd-Primary);
+}
+
+.form-check-input {
+  width: 1.3em !important;
+  height: 1.3em !important;
+}
+
+.ruppees {
+  color: var(--nd-Primary);
+  font-size: var(--nd-space-400);
+}
+
+.nd-subheading {
+  color: var(--nd-blue);
+  font-size: var(--nd-space-300);
+  font-weight: bold;
+}
+
+.nd-check-form {
+  background-color: var(--nd-Primary);
+  border-radius: var(--nd-space-200);
+  padding: 8px 8px 8px 8px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.nd-user-label {
+  align-items: center;
+
+}
+
+.label {
+  padding: 7px !important;
+}
+
+.nd-menu {
+  padding: 10px 0px 10px 35px;
+  font-size: 20px;
+}
+
+.nd-menu img,
+svg {
+  color: #fff;
+}
+
+.form-control {
+  border: 1px solid #bababa !important;
+  font-size: 12px !important;
+}
+
+.shadow1 {
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.10);
+}
+
+.form-label {
+  font-size: var(--nd-space-300);
+  font-weight: 600;
+  color: #585858 !important;
+}
+
+.nd-req-text span {
+  font-size: var(--nd-space-250);
+  color: var(--nd-Primary) !important;
+}
+
+.nd-mt-6 {
+  margin-top: var(--nd-space-150);
+}
+
+.alert-txt {
+  color: var(--nd-Primary);
+  font-size: var(--nd-space-400) !important;
+}
+
+.nd-step1 h3 {
+  font-size: var(--nd-space-400);
+  font-weight: 600;
+  color: var(--nd-blue-dark-bg);
+  padding: var(--nd-space-200) var(--nd-space-0) var(--nd-space-200) var(--nd-space-0);
+}

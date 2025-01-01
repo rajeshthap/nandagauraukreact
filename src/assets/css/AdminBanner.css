@@ -1,0 +1,52 @@
+.nd-login-banner {
+    background-image: url("../images//AdminBanner.png");
+    background-color: var(--nd-blue);
+    height: 620px;
+}
+
+.nd-admin-login label {
+    font-size: var(--nd-space-300);
+}
+.nd-form-check{
+    margin-top: var(--nd-space-200);
+}
+
+.nd-admin-login .form-check-input {
+    border: 1px solid var(--nd-black) !important;
+}
+.nd-admin-btn{
+    text-align: center !important;
+}
+
+.nd-admin-form{
+    padding: var(--nd-space-600) !important;
+ 
+}
+.nd-login-title h1{
+    font-size: var(--nd-space-400);
+    text-align: center;
+    padding-top: var(--nd-space-500) !important;
+}
+.nd-login-title{
+    font-size: var(--nd-space-500);
+    font-weight: bold;
+    text-align: center;
+}
+.nd-form-label{
+    color: var(--nd-black);
+    font-weight: 500;
+}
+.form-check-label{
+    color: var(--nd-black);
+    font-weight: 500;
+}
+@media only screen and (min-width: 600px) {
+    .nd-admin-form{
+        padding: var(--nd-space-400);
+    }
+}
+@media only screen and (min-width: 568px) {
+    .nd-admin-form{
+        padding: var(--nd-space-200);
+    }
+}
