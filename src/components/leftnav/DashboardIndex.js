@@ -11,7 +11,7 @@ function DashboardIndex() {
             <h1> नंदा गौरा योजना</h1>
           </div>
         </Col>
-        <Col lg={3} md={3} sm={12}>
+        <Col lg={4} md={4} sm={12}>
           <div className="nd-nanda-pdf">
             <h2>
               {" "}
@@ -20,7 +20,7 @@ function DashboardIndex() {
             </h2>
           </div>
         </Col>
-        <Col lg={6} md={6} sm={12}>
+        <Col lg={5} md={5} sm={12}>
           <div className="nd-nanda">
             <p>
               {" "}
