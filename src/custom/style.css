@@ -187,21 +187,17 @@ body {
   align-items: center;
 
 }
-
 .label {
   padding: 7px !important;
 }
-
 .nd-menu {
   padding: 10px 0px 10px 35px;
   font-size: 20px;
 }
-
 .nd-menu img,
 svg {
   color: #fff;
 }
-
 .form-control {
   border: 1px solid #bababa !important;
   font-size: 12px !important;
@@ -220,6 +216,7 @@ svg {
 .nd-req-text span {
   font-size: var(--nd-space-250);
   color: var(--nd-Primary) !important;
+ 
 }
 
 .nd-mt-6 {
@@ -236,4 +233,21 @@ svg {
   font-weight: 600;
   color: var(--nd-blue-dark-bg);
   padding: var(--nd-space-200) var(--nd-space-0) var(--nd-space-200) var(--nd-space-0);
+}
+.table>thead{
+  font-size: var(--nd-space-300);
+}
+.table>tbody{
+  font-size: var(--nd-space-300);
+}
+.nd-steps-drop{
+  font-size: var(--nd-space-300);
+}
+.nd-step2 h3{
+font-size: var(--nd-space-250);
+color: var(--nd-blue-dark-bg);
+font-weight: 600;
+}
+.nd-step3-note{
+  font-size: var(--nd-space-250);
 }

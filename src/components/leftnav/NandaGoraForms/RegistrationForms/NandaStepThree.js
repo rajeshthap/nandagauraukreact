@@ -16,7 +16,7 @@ import { Row, Col, Button } from "react-bootstrap";
 import GirlsBornStep from "./GirlsBornStep";
 import { Link } from "react-router-dom";
 import { FaCheck } from "react-icons/fa6";
-const NandaStepTwo = ({ buttons }) => {
+const NandaStepThree = ({ buttons }) => {
   const [isNavClosed, setIsNavClosed] = useState(false);
 
   const toggleNav = () => {
@@ -40,21 +40,61 @@ const NandaStepTwo = ({ buttons }) => {
                   <div className="nd-step2">
                     <Link to="/">
                       {" "}
-                      <FaCheck /> <h3>Step 1 : व्यक्तिगत जानकारी (Click to View)</h3>
+                      <h3>  <FaCheck />Step 1 : व्यक्तिगत जानकारी (Click to View)</h3>
                     </Link>
                   </div>
-                  <div className="nd-step1">
-                    <h3>Step 2 : सदस्यों / दस्तावेज़ों की जानकारी</h3>
+                  <div className="nd-step2">
+                    <h3>  <FaCheck />Step 2 : सदस्यों / दस्तावेज़ों की जानकारी</h3>
                   </div>
+                  <div className="nd-step1">
+                    <h3>Step 3 : चल / अचल सम्पत्ति का विवरण</h3>
+                  </div>
+                  <span className="nd-step3-note">नोट- यदि आवेदक उत्तराखण्ड के किसी अन्य जनपद से हो तो वहाँ की भी समस्त अचल सम्मपत्ति का पूर्ण विवरण -</span>
                 </Row>
-                
                   <div className="nd-step1">
                     <h3>
                      1. परिवार के सदस्यों का विवरण{" "}
                      <span className="alert-txt">*</span>{" "}
                     </h3>
                     </div>
-                
+                    <Table responsive="sm">
+                  <thead>
+                    
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>सामाजिक आर्थिक जाति जनगणना में परिवार की स्थिति का विवरण -</td>
+                      <td>
+                        <Form.Select aria-label="Default select example" className="nd-steps-drop">
+                          <option>व्यवसाय चुनें</option>
+                          <option value="निजी क्षेत्र में सेवा">निजी क्षेत्र में सेवा</option>
+                          <option value="कृषि कार्य">कृषि कार्य</option>
+                          <option value="स्वयं का व्यवसाय">स्वयं का व्यवसाय</option>
+                          <option value="अन्य कार्य">अन्य कार्य</option>
+                        </Form.Select>
+                      </td>
+                      
+                     
+                      
+                    </tr>
+                    <tr>
+                      <td>पिता का व्यवसाय / कार्य का विवरण</td>
+                      <td>
+                        <Form.Select aria-label="Default select example" className="nd-steps-drop">
+                          <option>व्यवसाय चुनें</option>
+                          <option value="निजी क्षेत्र में सेवा">निजी क्षेत्र में सेवा</option>
+                          <option value="कृषि कार्य">कृषि कार्य</option>
+                          <option value="स्वयं का व्यवसाय">स्वयं का व्यवसाय</option>
+                          <option value="अन्य कार्य">अन्य कार्य</option>
+                        </Form.Select>
+                      </td>
+                      
+                     
+                      
+                    </tr>
+                  
+                  </tbody>
+                </Table>
 
                 <Table responsive="sm">
                   <thead>
@@ -564,7 +604,7 @@ const NandaStepTwo = ({ buttons }) => {
                  
                 </Table>
                 <div className="nd-btnn text-center">
-                  <Link to="/NandaStepThree"><Button className="mt-3 nd-primary-btn"> सबमिट करे </Button></Link>
+                  <Button className="mt-3 nd-primary-btn"> सबमिट करे </Button>
                 </div>
               </Row>
             </div>
@@ -578,4 +618,4 @@ const NandaStepTwo = ({ buttons }) => {
   );
 };
 
-export default NandaStepTwo;
+export default NandaStepThree;

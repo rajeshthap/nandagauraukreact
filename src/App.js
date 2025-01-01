@@ -18,6 +18,7 @@ import DashBoard from "./components/leftnav/DashBoard";
 import Change from "./components/leftnav/Change";
 import NandaStepOne from "../src/components/leftnav/NandaGoraForms/RegistrationForms/NandaStepOne";
 import NandaStepTwo from "../src/components/leftnav/NandaGoraForms/RegistrationForms/NandaStepTwo";
+import NandaStepThree from "../src/components/leftnav/NandaGoraForms/RegistrationForms/NandaStepThree";
 import LoginFooter from "./components/footer/LoginFooter";
 import InnerNavigation from "./components/leftnav/InnerNavigation";
 import GirlsBornStep from "./components/leftnav/NandaGoraForms/RegistrationForms/GirlsBornStep";
@@ -26,8 +27,8 @@ function App() {
   const location = useLocation();
 
  
-  const hiddenPaths = new Set(["/UserDashboard", "/DashBoard", "/Change","/NandaStepOne","/NandaStepTwo"]); // Correct absolute paths
-  const hiddenFooter1 = new Set(["/UserDashboard", "/DashBoard", "/Change","/NandaStepOne","/NandaStepTwo"]); // Correct absolute paths
+  const hiddenPaths = new Set(["/UserDashboard", "/DashBoard", "/Change","/NandaStepOne","/NandaStepTwo","/NandaStepThree"]); // Correct absolute paths
+  const hiddenFooter1 = new Set(["/UserDashboard", "/DashBoard", "/Change","/NandaStepOne","/NandaStepTwo","/NandaStepThree"]); // Correct absolute paths
   const shouldHideNavbar = hiddenPaths.has(location.pathname);
   const shouldHideFooter1 =  hiddenFooter1.has(location.pathname);
 
@@ -49,6 +50,7 @@ function App() {
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/NandaStepOne" element={<NandaStepOne />} />
         <Route path="/NandaStepTwo" element={<NandaStepTwo />} />
+        <Route path="/NandaStepThree" element={<NandaStepThree />} />
         <Route path="/DashBoard" element={<DashBoard />} /> {/* Correct path */}
         <Route path="/UserDashboard" element={<UserDashboard />} /> {/* Correct path */}
         <Route path="/Change" element={<Change />} /> {/* Correct path */}

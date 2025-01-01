@@ -14,6 +14,7 @@ import InnerNavigation from "../../InnerNavigation";
 
 import { Row, Col, Button } from "react-bootstrap";
 import GirlsBornStep from "./GirlsBornStep";
+import { Link } from "react-router-dom";
 
 const NandaStepOne = ({ buttons }) => {
   const [isNavClosed, setIsNavClosed] = useState(false);
@@ -305,6 +306,7 @@ const NandaStepOne = ({ buttons }) => {
                         controlId="exampleForm.ControlInput1"
                       >
                         <Form.Label>बैंक का नाम एवं शाखा <span className="alert-txt">*</span></Form.Label>
+                        
                         <Form.Control
                           type="number"
                           placeholder="बैंक का नाम एवं शाखा"
@@ -328,7 +330,7 @@ const NandaStepOne = ({ buttons }) => {
                   </Row>
                 </Col>
                 <div className="nd-btnn text-center">
-                <Button  className="mt-3 nd-primary-btn"> सबमिट करे </Button>
+                 <Link to="/NandaStepTwo"> <Button  className="mt-3 nd-primary-btn"> सबमिट करे </Button></Link>
                 </div>
                
               </Row>
