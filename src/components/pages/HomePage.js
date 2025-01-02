@@ -28,14 +28,14 @@ function HomePage() {
   return (
     <div className="container-fluid">
       <Row>
-        <Col lg={3} md={2} sm={12} className="d-flex">
+        <Col lg={3} md={3} sm={12} className="d-flex">
           <Card className="mt-4 pt-3 nd-Login-form flex-fill">
             <p className="text-center nd-card-title">
               नंदा गौरा आवेदन पत्र ऑनलाइन भरने से पूर्व निम्न निर्देशों का
               भली-भाँति अध्ययन कर लें :-
             </p>
             <div className="nd-card-img">
-              <img src={Nandonline} alt="onlone-form"></img>
+              <img src={Nandonline} alt="onlone-form" className="img-fluid"></img>
             </div>
             <div className="nd-card-body">
               <ol className="mt-2">
@@ -59,7 +59,7 @@ function HomePage() {
             </div>
           </Card>
         </Col>
-        <Col lg={3} md={2} sm={12} className="d-flex">
+        <Col lg={3} md={3} sm={12} className="d-flex">
           <Card className="mt-4 pt-3 nd-Login-form flex-fill">
             <p className="text-center nd-card-title">पूर्ण विज्ञप्ति:-</p>
             <Carousel className="carouael-slide">
@@ -82,7 +82,7 @@ function HomePage() {
           <Card className="mt-4 pt-3 nd-Login-form flex-fill">
             <p className="text-center nd-card-title">कन्या के जन्म पर</p>
             <div className="nd-card-img">
-              <img src={KanyaBorn} alt="onlone-form"></img>
+              <img src={KanyaBorn} alt="onlone-form" className="img-fluid"></img>
             </div>
             <div className="nd-card-body">
               <ol className="mt-2">
@@ -111,13 +111,13 @@ function HomePage() {
             </div>
           </Card>
         </Col>
-        <Col lg={2} md={2} sm={12} className="d-flex">
+        <Col lg={2} md={2} sm={12} className="d-flex"> 
           <Card className="mt-4 pt-3 nd-Login-form flex-fill">
             <p className="text-center nd-card-title">
               बालिका के इंटर उत्तीर्ण करने पर
             </p>
             <div className="nd-card-img">
-              <img src={Girls12th} alt="onlone-form"></img>
+              <img src={Girls12th} alt="onlone-form" className="img-fluid"></img>
             </div>
             <div className="nd-card-body">
               <ol className="mt-2">
@@ -152,13 +152,13 @@ function HomePage() {
             </div>
           </Card>
         </Col>
-        <Col lg={2} md={12} sm={12} className="d-flex">
+        <Col lg={2} md={2} sm={12} className="d-flex">
           <Card className="mt-4 pt-3 nd-Login-form flex-fill">
             <p className="text-center nd-card-title">
               बालिका के इंटर उत्तीर्ण करने पर
             </p>
             <div className="nd-card-img">
-              <img src={AnathAshrm} alt="onlone-form"></img>
+              <img src={AnathAshrm} alt="onlone-form"className="img-fluid"></img>
             </div>
             <div className="nd-card-body">
               <ol className="mt-2">

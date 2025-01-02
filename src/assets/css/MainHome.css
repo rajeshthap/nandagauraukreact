@@ -1,11 +1,16 @@
 .nd-main-banner {
     background-color: #2990ED;
     background-image: url(../images/govt_education.png);
-    height: 620px;
+    min-height: 620px;
+}
+.nd-banner-home{
+    padding-left: var(--nd-space-400);
+    padding-right: var(--nd-space-400);
 }
 
 .nd-update p {
     color: var(--nd-white);
+    font-size: var(--nd-space-350);
 }
 
 .nd-subupdate {

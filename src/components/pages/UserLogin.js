@@ -11,9 +11,9 @@ import { Link } from "react-router-dom";
 
 function UserLogin() {
   return (
-    <div className="container-fluid">
+    <div className="row">
       <div className="nd-main-banner">
-        <Container>
+        <div className="nd-banner-home">
           <Row>
             <Col lg={8} md={8} sm={12} className="mt-5 nd-main-col nd-main-data">
               <div className="nd-update">
@@ -99,7 +99,7 @@ function UserLogin() {
               </Card>
             </Col>
           </Row>
-        </Container>
+        </div>
       </div>
 
     </div>

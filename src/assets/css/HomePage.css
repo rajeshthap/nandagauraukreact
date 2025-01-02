@@ -18,6 +18,7 @@
 
 .nd-Login-form .nd-btn {
     text-align: center;
+    margin-bottom: var(--nd-space-300);
 }
 
 .nd-card-img {
