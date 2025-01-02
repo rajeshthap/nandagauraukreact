@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Import Link for navigation
+// import { Link } from "react-router-dom"; 
 import "../../assets/css/LeftNav.css";
 import Accordion from "react-bootstrap/Accordion";
-import UKLogon from "../../assets/images/UKLogo.png";
+// import UKLogon from "../../assets/images/UKLogo.png";
 import "@fortawesome/fontawesome-free"; // Font Awesome library
-import { Row, Col, Card, Form } from "react-bootstrap";
+import { Row, Col, Card } from "react-bootstrap";
 import KanyaBorn from "../../assets/images/kanyaborn.png";
 import Girls12th from "../../assets/images/girls12th.png";
 import PdfFile from "../../assets/images/12thpass.png";

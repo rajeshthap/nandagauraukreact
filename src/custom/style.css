@@ -187,17 +187,21 @@ body {
   align-items: center;
 
 }
+
 .label {
   padding: 7px !important;
 }
+
 .nd-menu {
   padding: 10px 0px 10px 35px;
   font-size: 20px;
 }
+
 .nd-menu img,
 svg {
   color: #fff;
 }
+
 .form-control {
   border: 1px solid #bababa !important;
   font-size: 12px !important;
@@ -216,7 +220,7 @@ svg {
 .nd-req-text span {
   font-size: var(--nd-space-250);
   color: var(--nd-Primary) !important;
- 
+
 }
 
 .nd-mt-6 {
@@ -234,20 +238,47 @@ svg {
   color: var(--nd-blue-dark-bg);
   padding: var(--nd-space-200) var(--nd-space-0) var(--nd-space-200) var(--nd-space-0);
 }
-.table>thead{
+
+.table>thead {
   font-size: var(--nd-space-300);
 }
-.table>tbody{
+
+.table>tbody {
   font-size: var(--nd-space-300);
 }
-.nd-steps-drop{
+
+.nd-steps-drop {
   font-size: var(--nd-space-300);
 }
-.nd-step2 h3{
-font-size: var(--nd-space-250);
-color: var(--nd-blue-dark-bg);
-font-weight: 600;
-}
-.nd-step3-note{
+
+.nd-step2 h3 {
   font-size: var(--nd-space-250);
+  color: var(--nd-blue-dark-bg);
+  font-weight: 600;
+}
+
+.nd-step3-note {
+  font-size: var(--nd-space-250);
+}
+
+.nd-stepform-box {
+  background-color: #DEEEF8;
+  padding: var(--nd-space-300);
+  border-radius: var(--nd-space-200);
+  border: 1px solid #A8DDFF !important;
+  margin-bottom: var(--nd-space-400);
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.nd-step-heading {
+  color: var(--nd-Primary) !important;
+}
+
+.nd-step-heading h1 {
+  padding-bottom: 8px;
+  font-size: var(--nd-space-300);
+  color: var(--nd-Primary) !important;
+  font-weight: 600;
+  padding-top: 8px;
 }
