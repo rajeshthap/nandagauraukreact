@@ -142,7 +142,7 @@ const NandaStepThree = ({ buttons }) => {
                     controlId="exampleForm.ControlInput1"
                   >
                     <Form.Label>
-                      1. भूमि का क्षेत्रफल (हेक्टेयर में):-{" "}
+                      1. भूमि का क्षेत्रफल (हेक्टेयर में){" "}
                       <span className="alert-txt">*</span>
                     </Form.Label>
                     <Form.Control
@@ -178,7 +178,7 @@ const NandaStepThree = ({ buttons }) => {
                     controlId="exampleForm.ControlInput1"
                   >
                     <Form.Label>
-                      1. आवासीय भूमि:- <span className="alert-txt">*</span>
+                      1. आवासीय भूमि <span className="alert-txt">*</span>
                     </Form.Label>
                     <Form.Select
                       aria-label="Default select example"
@@ -228,7 +228,7 @@ const NandaStepThree = ({ buttons }) => {
                     controlId="exampleForm.ControlInput1"
                   >
                     <Form.Label>
-                      2. वर्तमान मूल्य <span>r</span> (){" "}
+                      2. वर्तमान मूल्य <span>₹</span> (){" "}
                       <span className="alert-txt">*</span>
                     </Form.Label>
                     <Form.Control
@@ -251,7 +251,7 @@ const NandaStepThree = ({ buttons }) => {
                       <th>बैंक का नाम</th>
                       <th>खाता संख्या</th>
                       <th>
-                        कुल जमा धनराशि (विगत एक वर्ष में)<span>r</span>
+                        कुल जमा धनराशि (विगत एक वर्ष में)<span className="ruppees">₹</span>
                       </th>
                     </tr>
                   </thead>
@@ -732,8 +732,7 @@ const NandaStepThree = ({ buttons }) => {
                         controlId="exampleForm.ControlInput1"
                       >
                         <Form.Label>
-                          पानी के बिलों को जमा करने की तिथि
-                          <span className="alert-txt">*</span>
+                          पानी के बिलों को जमा करने की तिथि <span className="alert-txt">*</span>
                         </Form.Label>
 
                         <Form.Control

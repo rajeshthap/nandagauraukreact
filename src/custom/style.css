@@ -282,3 +282,10 @@ svg {
   font-weight: 600;
   padding-top: 8px;
 }
+@media (max-width: 575.98px) { 
+    
+  .nd-stepform-box {
+    padding: var(--nd-space-0);    
+  }
+  .form-label{margin-bottom:var(--nd-space-0) !important;}
+}
